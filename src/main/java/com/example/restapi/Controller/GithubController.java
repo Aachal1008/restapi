@@ -30,7 +30,7 @@ public class GithubController {
     {
         RestTemplate restTemplete = new RestTemplate();
 
-        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/Aachal1008/GitDashbooard/commits", String.class);
+        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/Aachal1008/GitDashboard/commits", String.class);
         return string;
 
 
@@ -41,7 +41,7 @@ public class GithubController {
     {
         RestTemplate restTemplete = new RestTemplate();
 
-        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/mojombo/30daysoflaptops.github.io/commits/03e46e1677020f733a5c6b2e07594b5dfebed830/statuses", String.class);
+        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/Aachal1008/GitDashboard/commits/fbc3dd3776856d6529c266c1b74fa3f83c374e31/status", String.class);
         return string;
 
 
@@ -52,7 +52,7 @@ public class GithubController {
     {
         RestTemplate restTemplete = new RestTemplate();
 
-        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/mojombo/30daysoflaptops.github.io/deployments", String.class);
+        ResponseEntity<String> string = restTemplete.getForEntity("https://api.github.com/repos/Aachal1008/GitDashboard/deployments", String.class);
         return string;
 
 
